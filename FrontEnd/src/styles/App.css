@@ -1,0 +1,63 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+
+}
+
+.navbar-container{
+  min-height: 100px;
+  min-width: 100%;
+  display:flex;
+  gap: 340px;
+  border: 1px black solid;
+  background-color:rgba(16, 16, 49, 0.61) ;
+  
+
+}
+
+.navbar-title{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap: 10px;
+
+}
+.music-png{
+  height: 30px;
+
+}
+.cart-png{
+  height: 20px;
+
+}
+.input-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position: relative;
+  gap: 10px;
+}
+.sconde-part{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+}
+.btn-delete{
+  position: absolute;
+  margin-left: 110px;
+  background-color: rgb(167, 26, 26);
+  border-radius:5px;
+  width:20px
+}
+input{
+  border-radius: 3px none;
+}
+.btn-search{
+  height:19px;
+  display:flex;
+
+
+}
